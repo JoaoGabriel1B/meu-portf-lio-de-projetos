@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.jpeg" alt="avatar do Joao Gabriel" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Olá, meu nome é João Gabriel</p>
+        <h1>Eu estudo Tecnologia</h1>
+        <p>Sou bom em Tecnologia, sei utilizar power point, excel, word, etc.
+            pretendo virar marketing digital ou programador.
+            Pratico em tecnologia e estou fazendo curso de tecnologia
+            Já criei alguns projetos no vscode, p5.js, github, etc.
+            venha ver minhas melhores criações.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Tecnologia</p>
+            <p class="badge bg-secondary">Word</p>
+            <p class="badge bg-secondary">p5.js</p>
+            <p class="badge bg-secondary">github</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvimeto de um site referente a lista de videos</h5>
+                        <p class="card-text">Um site de lista de videos baseado em carros que é um dos meus temas favoritos, onde contem todos os videos sobre carros que é o meu tema escolhido, site bem estilizado e criativo e feito no p5.js
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Venha Ver</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Utilizando o p5.js para fazer um jogo de corrida baseado em emojis</h5>
+                        <p class="card-text">Um jogo de corrida bem interativo e estilizado. Feito no p5.js</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Venha Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Utilizando o P5.js para fazer um fluxograma baseado nos jovens titãs
+                        </h5>
+                        <p class="card-text">Um fluxograma cheio de escolhas para fazer e histórias para desvendar sobre o universo dos jovens titãs o clássico. Feito no p5.js
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Venha Ver</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu Portifólio: Um site sobre uma lista de videos sobre carros esportivos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Portifólio feito em javascript, com meu conteúdo sendo uma lista de videos sobre carros esportivos, criado pelo canal auto telling</p>
+                    <img src="img/projeto-1.jpeg" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://joaogabriel1b.github.io/Joaoflix/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/JoaoGabriel1B/Joaoflix">Ver no github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu Jogo: um Jogo de corrida baseado em emojis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este é um jogo de corrida baseado em emojis feito no p5.js, vc pode escolher quatro jogadores e fazer uma disputa de corrida para ver quem chega mais rápido na linha de chegada.
+                    Com controles fáceis, o jogo conta com um sistemna de quatro teclas na qual cada uma delas indica um jogador</p>
+                    <img src="img/projeto-2.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class= "modal-footer">
+                    <a href="https://joaogabriel1b.github.io/Novo-jogo-de-corrida/">Ver projeto no github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mee Jogo: um fluxograma baseado nos jovens titãs o clássico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este é um jogo de fluxograma na qual você pode fazer escolhas e avançar na história baseada nos jovens titãs, e esse projeto foi desenvolvido no p5.js.
+                    Com gráficos 2D simples e controles intuitivos, o jogo oferece uma experiência dinâmica e divertida.</p>
+                    <img src="img/projeto-3.jpeg" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://joaogabriel1b.github.io/Aventura-dos-Jovens-Titas/">Ver projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+        <i class="bi bi-github"></i>
+        <a href="https://github.com/JoaoGabriel1B" style="margin-right: 20px;">GitHub</a>
+    </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por João Gabriel<i class="bi-patch-check-fill"style="margin-left:  3px;"></i></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
